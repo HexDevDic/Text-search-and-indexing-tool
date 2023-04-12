@@ -15,6 +15,7 @@ void computeLPSArray(const char *pat, const size_t M, size_t *lps)
         } else {
             if (len != 0) {
                 len = lps[len - 1];
+                len = lps[len - 1];
             } else {
                 lps[i] = 0;
                 i++;
